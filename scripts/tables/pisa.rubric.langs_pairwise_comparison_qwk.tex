@@ -1,0 +1,20 @@
+\begin{tabularx}{\textwidth}{X | c c c c}
+\hline
+\makecell[b]{\textbf{Model} \\ \textbf{Name}} & \makecell[b]{\textbf{Pt} \\ \textbf{(4)} \\ \textbf{Reference} \\ \textbf{Not} \\ \textbf{Translated}} & \makecell[b]{\textbf{Pt} \\ \textbf{(4)} \\ \textbf{Translated}} & \makecell[b]{\textbf{Da} \\ \textbf{(3)} \\ \textbf{Reference} \\ \textbf{Not} \\ \textbf{Translated}} & \makecell[b]{\textbf{Da} \\ \textbf{(3)} \\ \textbf{Translated}} \\
+\hline
+WSE Research\\\subcatarrow{}Qwen 3.5 27B & \textbf{\textcolor{BrickRed}{0.558}} & \textbf{\textcolor{BrickRed}{0.566}} & \textbf{\textcolor{BrickRed}{0.564}} & \textbf{\textcolor{BrickRed}{0.567}} \\
+Baselines\\\subcatarrow{}Gemma4-E4B & \textbf{\textcolor{White!50!BrickRed}{0.444}} & \textbf{\textcolor{White!50!BrickRed}{0.452}} & \textbf{\textcolor{White!50!BrickRed}{0.460}} & \textbf{\textcolor{White!50!BrickRed}{0.479}} \\
+Baselines\\\subcatarrow{}Gemma4-E4B validated & \textbf{\textcolor{White!50!BrickRed}{0.462}} & \textbf{\textcolor{White!50!BrickRed}{0.478}} & \textbf{\textcolor{White!50!BrickRed}{0.476}} & \textbf{\textcolor{White!50!BrickRed}{0.475}} \\
+baselines\\\subcatarrow{}Product Of Experts & \textcolor{White!50!NavyBlue}{0.244} & \textcolor{Black}{0.321$^{*}$} & \textcolor{White!50!NavyBlue}{0.245} & \textcolor{Black}{0.265} \\
+Fianso\\\subcatarrow{}Qwen 3 Embedding 8B LogReg & \textcolor{Black}{0.379} & \textcolor{Black}{0.393} & \textcolor{Black}{0.363} & \textcolor{Black}{0.346} \\
+baselines\\\subcatarrow{}Majority Vote & \textcolor{White!50!NavyBlue}{0.210} & \textcolor{White!50!NavyBlue}{0.279$^{*}$} & \textcolor{White!50!NavyBlue}{0.224$^{*}$} & \textcolor{White!50!NavyBlue}{0.183} \\
+baselines\\\subcatarrow{}mDeBERTa V3 & \textcolor{White!50!NavyBlue}{0.202$^{*}$} & \textcolor{NavyBlue}{0.169} & \textcolor{White!50!NavyBlue}{0.196} & \textcolor{White!50!NavyBlue}{0.212} \\
+baselines\\\subcatarrow{}EuroBERT-610m & \textcolor{White!50!NavyBlue}{0.214} & \textcolor{White!50!NavyBlue}{0.261$^{*}$} & \textcolor{White!50!NavyBlue}{0.228$^{*}$} & \textcolor{White!50!NavyBlue}{0.162} \\
+Baselines\\\subcatarrow{}EuroBERT-210m & \textcolor{NavyBlue}{0.103} & \textcolor{NavyBlue}{0.165$^{*}$} & \textcolor{NavyBlue}{0.120} & \textcolor{White!50!NavyBlue}{0.117} \\
+Pythoneers\\\subcatarrow{}BGE-M3 or ModernBERT & \textcolor{NavyBlue}{0.092} & \textcolor{NavyBlue}{0.186$^{*}$} & \textcolor{NavyBlue}{0.111} & \textcolor{White!50!NavyBlue}{0.182$^{*}$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m only trainset & \textcolor{NavyBlue}{0.104} & \textcolor{NavyBlue}{0.134} & \textcolor{NavyBlue}{0.093$^{*}$} & \textcolor{NavyBlue}{0.034} \\
+Baselines\\\subcatarrow{}Gemma4-E2B & \textcolor{White!50!NavyBlue}{0.236} & \textcolor{White!50!NavyBlue}{0.249} & \textcolor{White!50!NavyBlue}{0.230$^{*}$} & \textcolor{White!50!NavyBlue}{0.190} \\
+Baselines\\\subcatarrow{}Multilingual-E5-Large Random Forest & \textcolor{White!50!NavyBlue}{0.261} & \textcolor{White!50!NavyBlue}{0.239} & \textcolor{White!50!NavyBlue}{0.239} & \textcolor{Black}{0.254} \\
+Baselines\\\subcatarrow{}EuroBERT-210m no context & \textcolor{NavyBlue}{0.115} & \textcolor{White!50!NavyBlue}{0.188$^{*}$} & \textcolor{NavyBlue}{0.123$^{*}$} & \textcolor{NavyBlue}{0.063} \\
+\hline
+\end{tabularx}

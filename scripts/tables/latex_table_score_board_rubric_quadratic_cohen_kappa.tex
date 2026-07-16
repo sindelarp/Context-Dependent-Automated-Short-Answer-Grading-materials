@@ -1,0 +1,20 @@
+\begin{tabularx}{\textwidth}{X | c c c c c}
+\hline
+\makecell[b]{\textbf{Model} \\ \textbf{Name}} & \makecell[b]{\textbf{Overall} \\ \textbf{results}} & \makecell[b]{\textbf{Addi} \\ \textbf{test} \\ \textbf{set}} & \makecell[b]{\textbf{PISA} \\ \textbf{test} \\ \textbf{set}} & \makecell[b]{\textbf{Addi} \\ \textbf{test} \\ \textbf{set} \\ \textbf{manu}} & \makecell[b]{\textbf{devel} \\ \textbf{set}} \\
+\hline
+WSE Research\\\subcatarrow{}Qwen 3.5 27B & \textbf{\textcolor{BrickRed}{0.648}} & \textbf{\textcolor{BrickRed}{0.713$\pm{}005$}} & \textbf{\textcolor{BrickRed}{0.583$\pm{}008$}} & \textbf{\textcolor{BrickRed}{0.723$\pm{}007$}} & \textbf{\textcolor{BrickRed}{0.863$\pm{}010$}} \\
+Baselines\\\subcatarrow{}Gemma4-E4B & \textbf{\textcolor{White!50!BrickRed}{0.506}} & \textcolor{White!50!BrickRed}{0.536$\pm{}008$} & \textbf{\textcolor{White!50!BrickRed}{0.475$\pm{}008$}} & \textbf{\textcolor{White!50!BrickRed}{0.634$\pm{}009$}} & \textcolor{White!50!BrickRed}{0.764$\pm{}017$} \\
+Baselines\\\subcatarrow{}Gemma4-E4B validated & \textbf{\textcolor{White!50!BrickRed}{0.526}} & \textcolor{White!50!BrickRed}{0.571$\pm{}008$} & \textbf{\textcolor{White!50!BrickRed}{0.481$\pm{}009$}} & \textbf{\textcolor{White!50!BrickRed}{0.647$\pm{}009$}} & \textbf{\textcolor{White!50!BrickRed}{0.779$\pm{}016$}} \\
+baselines\\\subcatarrow{}Product Of Experts & \textcolor{Black}{0.440} & \textbf{\textcolor{White!50!BrickRed}{0.616$\pm{}008$}} & \textcolor{White!50!NavyBlue}{0.263$\pm{}010$} & \textcolor{White!50!BrickRed}{0.631$\pm{}009$} & \textcolor{Black}{0.510$\pm{}024$} \\
+Fianso\\\subcatarrow{}Qwen 3 Embedding 8B LogReg & \textcolor{Black}{0.433} & \textcolor{Black}{0.476$\pm{}008$} & \textcolor{Black}{0.391$\pm{}009$} & \textcolor{Black}{0.462$\pm{}010$} & \textcolor{Black}{0.517$\pm{}025$} \\
+baselines\\\subcatarrow{}Majority Vote & \textcolor{Black}{0.408} & \textbf{\textcolor{White!50!BrickRed}{0.589$\pm{}008$}} & \textcolor{White!50!NavyBlue}{0.228$\pm{}009$} & \textcolor{White!50!BrickRed}{0.604$\pm{}011$} & \textcolor{White!50!NavyBlue}{0.433$\pm{}026$} \\
+baselines\\\subcatarrow{}mDeBERTa V3 & \textcolor{White!50!NavyBlue}{0.368} & \textcolor{White!50!BrickRed}{0.521$\pm{}009$} & \textcolor{White!50!NavyBlue}{0.215$\pm{}009$} & \textcolor{White!50!BrickRed}{0.515$\pm{}011$} & \textcolor{Black}{0.580$\pm{}023$} \\
+baselines\\\subcatarrow{}EuroBERT-610m & \textcolor{White!50!NavyBlue}{0.338} & \textcolor{Black}{0.486$\pm{}008$} & \textcolor{White!50!NavyBlue}{0.189$\pm{}009$} & \textcolor{Black}{0.484$\pm{}010$} & \textcolor{White!50!NavyBlue}{0.369$\pm{}027$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m & \textcolor{White!50!NavyBlue}{0.331} & \textcolor{White!50!BrickRed}{0.539$\pm{}008$} & \textcolor{NavyBlue}{0.123$\pm{}009$} & \textcolor{White!50!BrickRed}{0.564$\pm{}009$} & \textcolor{Black}{0.548$\pm{}024$} \\
+Pythoneers\\\subcatarrow{}BGE-M3 or ModernBERT & \textcolor{White!50!NavyBlue}{0.317} & \textcolor{Black}{0.449$\pm{}009$} & \textcolor{White!50!NavyBlue}{0.185$\pm{}010$} & \textcolor{Black}{0.458$\pm{}011$} & \textbf{\textcolor{BrickRed}{0.825$\pm{}018$}} \\
+Baselines\\\subcatarrow{}EuroBERT-210m only trainset & \textcolor{White!50!NavyBlue}{0.303} & \textcolor{Black}{0.508$\pm{}009$} & \textcolor{NavyBlue}{0.098$\pm{}010$} & \textcolor{White!50!BrickRed}{0.538$\pm{}011$} & \textcolor{NavyBlue}{0.282$\pm{}027$} \\
+Baselines\\\subcatarrow{}Gemma4-E2B & \textcolor{NavyBlue}{0.286} & \textcolor{White!50!NavyBlue}{0.317$\pm{}011$} & \textcolor{White!50!NavyBlue}{0.255$\pm{}008$} & \textcolor{White!50!NavyBlue}{0.363$\pm{}013$} & \textcolor{Black}{0.527$\pm{}026$} \\
+Baselines\\\subcatarrow{}Multilingual-E5-Large Random Forest & \textcolor{NavyBlue}{0.243} & \textcolor{NavyBlue}{0.189$\pm{}009$} & \textcolor{Black}{0.297$\pm{}010$} & \textcolor{NavyBlue}{0.165$\pm{}010$} & \textcolor{White!50!NavyBlue}{0.415$\pm{}025$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m no context & \textcolor{NavyBlue}{0.238} & \textcolor{White!50!NavyBlue}{0.363$\pm{}009$} & \textcolor{NavyBlue}{0.113$\pm{}010$} & \textcolor{Black}{0.375$\pm{}012$} & \textcolor{Black}{0.528$\pm{}027$} \\
+\hline
+\end{tabularx}

@@ -1,0 +1,20 @@
+\begin{tabularx}{\textwidth}{X | c c c c c}
+\hline
+\makecell[b]{\textbf{Model} \\ \textbf{Name}} & \makecell[b]{\textbf{Avg} \\ \textbf{Agree-} \\ \textbf{ment}} & \makecell[b]{\textbf{Min} \\ \textbf{Agree-} \\ \textbf{ment}} & \makecell[b]{\textbf{En} \\ \textbf{(5)} \\ \textbf{Agree-} \\ \textbf{ment}} & \makecell[b]{\textbf{Pt} \\ \textbf{(4)} \\ \textbf{Agree-} \\ \textbf{ment}} & \makecell[b]{\textbf{Da} \\ \textbf{(3)} \\ \textbf{Agree-} \\ \textbf{ment}} \\
+\hline
+WSE Research\\\subcatarrow{}Qwen 3.5 27B & \textbf{\textcolor{BrickRed}{0.870}} & \textbf{\textcolor{BrickRed}{0.852}} & \textbf{\textcolor{BrickRed}{0.865$\pm{}025$}} & \textbf{\textcolor{BrickRed}{0.885$\pm{}023$}} & \textbf{\textcolor{BrickRed}{0.878$\pm{}022$}} \\
+Baselines\\\subcatarrow{}Gemma4-E4B & \textbf{\textcolor{White!50!BrickRed}{0.719}} & \textcolor{White!50!BrickRed}{0.693} & \textbf{\textcolor{White!50!BrickRed}{0.715$\pm{}029$}} & \textbf{\textcolor{White!50!BrickRed}{0.725$\pm{}035$}} & \textcolor{White!50!BrickRed}{0.742$\pm{}030$} \\
+Baselines\\\subcatarrow{}Gemma4-E4B validated & \textcolor{White!50!BrickRed}{0.710} & \textbf{\textcolor{White!50!BrickRed}{0.698}} & \textcolor{White!50!BrickRed}{0.702$\pm{}032$} & \textcolor{White!50!BrickRed}{0.710$\pm{}037$} & \textcolor{White!50!BrickRed}{0.729$\pm{}031$} \\
+baselines\\\subcatarrow{}Product Of Experts & \textcolor{Black}{0.542} & \textcolor{Black}{0.477} & \textcolor{Black}{0.537$\pm{}038$} & \textcolor{Black}{0.615$\pm{}041$} & \textcolor{Black}{0.538$\pm{}038$} \\
+Fianso\\\subcatarrow{}Qwen 3 Embedding 8B LogReg & \textbf{\textcolor{White!50!BrickRed}{0.793}} & \textbf{\textcolor{White!50!BrickRed}{0.749}} & \textbf{\textcolor{BrickRed}{0.795$\pm{}024$}} & \textbf{\textcolor{White!50!BrickRed}{0.805$\pm{}030$}} & \textbf{\textcolor{BrickRed}{0.824$\pm{}024$}} \\
+baselines\\\subcatarrow{}Majority Vote & \textcolor{White!50!NavyBlue}{0.448} & \textcolor{White!50!NavyBlue}{0.361} & \textcolor{White!50!NavyBlue}{0.458$\pm{}040$} & \textcolor{White!50!NavyBlue}{0.529$\pm{}046$} & \textcolor{White!50!NavyBlue}{0.443$\pm{}046$} \\
+baselines\\\subcatarrow{}mDeBERTa V3 & \textcolor{White!50!BrickRed}{0.719} & \textcolor{White!50!BrickRed}{0.683} & \textcolor{White!50!BrickRed}{0.683$\pm{}035$} & \textbf{\textcolor{White!50!BrickRed}{0.725$\pm{}037$}} & \textbf{\textcolor{White!50!BrickRed}{0.744$\pm{}031$}} \\
+baselines\\\subcatarrow{}EuroBERT-610m & \textcolor{Black}{0.507} & \textcolor{White!50!NavyBlue}{0.400} & \textcolor{Black}{0.539$\pm{}043$} & \textcolor{Black}{0.578$\pm{}045$} & \textcolor{Black}{0.510$\pm{}045$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m & \textcolor{NavyBlue}{0.346} & \textcolor{NavyBlue}{0.285} & \textcolor{NavyBlue}{0.285$\pm{}041$} & \textcolor{NavyBlue}{0.370$\pm{}049$} & \textcolor{White!50!NavyBlue}{0.381$\pm{}044$} \\
+Pythoneers\\\subcatarrow{}BGE-M3 or ModernBERT & \textcolor{Black}{0.505} & \textcolor{NavyBlue}{0.235} & \textcolor{NavyBlue}{0.235$\pm{}044$} & \textcolor{Black}{0.602$\pm{}046$} & \textcolor{Black}{0.593$\pm{}041$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m only trainset & \textcolor{NavyBlue}{0.284} & \textcolor{NavyBlue}{0.209} & \textcolor{NavyBlue}{0.230$\pm{}047$} & \textcolor{White!50!NavyBlue}{0.417$\pm{}044$} & \textcolor{NavyBlue}{0.281$\pm{}043$} \\
+Baselines\\\subcatarrow{}Gemma4-E2B & \textcolor{White!50!NavyBlue}{0.444} & \textcolor{White!50!NavyBlue}{0.429} & \textcolor{White!50!NavyBlue}{0.429$\pm{}048$} & \textcolor{White!50!NavyBlue}{0.439$\pm{}054$} & \textcolor{White!50!NavyBlue}{0.450$\pm{}045$} \\
+Baselines\\\subcatarrow{}Multilingual-E5-Large Random Forest & \textcolor{Black}{0.583} & \textcolor{Black}{0.459} & \textcolor{White!50!BrickRed}{0.628$\pm{}039$} & \textcolor{White!50!NavyBlue}{0.459$\pm{}051$} & \textcolor{White!50!BrickRed}{0.667$\pm{}037$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m no context & \textcolor{NavyBlue}{0.292} & \textcolor{NavyBlue}{0.219} & \textcolor{White!50!NavyBlue}{0.346$\pm{}043$} & \textcolor{NavyBlue}{0.321$\pm{}049$} & \textcolor{NavyBlue}{0.280$\pm{}044$} \\
+\hline
+\end{tabularx}

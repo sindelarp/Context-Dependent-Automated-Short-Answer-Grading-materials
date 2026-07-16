@@ -1,0 +1,20 @@
+\begin{tabularx}{\textwidth}{X | c c c c c}
+\hline
+\makecell[b]{\textbf{Model} \\ \textbf{Name}} & \makecell[b]{\textbf{Overall} \\ \textbf{results}} & \makecell[b]{\textbf{Addi} \\ \textbf{test} \\ \textbf{set}} & \makecell[b]{\textbf{PISA} \\ \textbf{test} \\ \textbf{set}} & \makecell[b]{\textbf{Addi} \\ \textbf{test} \\ \textbf{set} \\ \textbf{manu}} & \makecell[b]{\textbf{devel} \\ \textbf{set}} \\
+\hline
+WSE Research\\\subcatarrow{}Qwen 3.5 27B & \textbf{\textcolor{BrickRed}{0.676}} & \textbf{\textcolor{BrickRed}{0.656$\pm{}005$}} & \textbf{\textcolor{BrickRed}{0.697$\pm{}004$}} & \textbf{\textcolor{BrickRed}{0.666$\pm{}006$}} & \textbf{\textcolor{White!50!BrickRed}{0.809$\pm{}012$}} \\
+Baselines\\\subcatarrow{}Gemma4-E4B & \textbf{\textcolor{White!50!BrickRed}{0.609}} & \textcolor{White!50!BrickRed}{0.594$\pm{}005$} & \textbf{\textcolor{White!50!BrickRed}{0.624$\pm{}005$}} & \textcolor{BrickRed}{0.629$\pm{}006$} & \textcolor{White!50!BrickRed}{0.756$\pm{}013$} \\
+Baselines\\\subcatarrow{}Gemma4-E4B validated & \textbf{\textcolor{White!50!BrickRed}{0.626}} & \textcolor{BrickRed}{0.628$\pm{}005$} & \textbf{\textcolor{White!50!BrickRed}{0.624$\pm{}005$}} & \textbf{\textcolor{BrickRed}{0.650$\pm{}006$}} & \textbf{\textcolor{White!50!BrickRed}{0.779$\pm{}012$}} \\
+baselines\\\subcatarrow{}Product Of Experts & \textcolor{Black}{0.581} & \textbf{\textcolor{BrickRed}{0.647$\pm{}005$}} & \textcolor{Black}{0.515$\pm{}005$} & \textbf{\textcolor{BrickRed}{0.652$\pm{}007$}} & \textcolor{White!50!NavyBlue}{0.596$\pm{}014$} \\
+Fianso\\\subcatarrow{}Qwen 3 Embedding 8B LogReg & \textcolor{White!50!NavyBlue}{0.502} & \textcolor{Black}{0.521$\pm{}006$} & \textcolor{White!50!NavyBlue}{0.482$\pm{}005$} & \textcolor{Black}{0.511$\pm{}007$} & \textcolor{White!50!NavyBlue}{0.588$\pm{}015$} \\
+baselines\\\subcatarrow{}Majority Vote & \textcolor{Black}{0.562} & \textbf{\textcolor{BrickRed}{0.630$\pm{}005$}} & \textcolor{Black}{0.494$\pm{}005$} & \textcolor{BrickRed}{0.634$\pm{}007$} & \textcolor{White!50!NavyBlue}{0.563$\pm{}015$} \\
+baselines\\\subcatarrow{}mDeBERTa V3 & \textcolor{Black}{0.553} & \textcolor{White!50!BrickRed}{0.617$\pm{}005$} & \textcolor{Black}{0.490$\pm{}005$} & \textcolor{White!50!BrickRed}{0.612$\pm{}006$} & \textcolor{Black}{0.637$\pm{}015$} \\
+baselines\\\subcatarrow{}EuroBERT-610m & \textcolor{White!50!NavyBlue}{0.504} & \textcolor{Black}{0.542$\pm{}005$} & \textcolor{White!50!NavyBlue}{0.465$\pm{}005$} & \textcolor{Black}{0.540$\pm{}006$} & \textcolor{NavyBlue}{0.527$\pm{}015$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m & \textcolor{White!50!NavyBlue}{0.528} & \textcolor{White!50!BrickRed}{0.606$\pm{}005$} & \textcolor{White!50!NavyBlue}{0.451$\pm{}005$} & \textcolor{White!50!BrickRed}{0.618$\pm{}006$} & \textcolor{Black}{0.657$\pm{}015$} \\
+Pythoneers\\\subcatarrow{}BGE-M3 or ModernBERT & \textcolor{NavyBlue}{0.447} & \textcolor{Black}{0.535$\pm{}005$} & \textcolor{NavyBlue}{0.359$\pm{}005$} & \textcolor{Black}{0.538$\pm{}007$} & \textbf{\textcolor{BrickRed}{0.882$\pm{}010$}} \\
+Baselines\\\subcatarrow{}EuroBERT-210m only trainset & \textcolor{White!50!NavyBlue}{0.512} & \textcolor{White!50!BrickRed}{0.591$\pm{}005$} & \textcolor{White!50!NavyBlue}{0.433$\pm{}005$} & \textcolor{White!50!BrickRed}{0.601$\pm{}006$} & \textcolor{NavyBlue}{0.486$\pm{}015$} \\
+Baselines\\\subcatarrow{}Gemma4-E2B & \textcolor{White!50!NavyBlue}{0.526} & \textcolor{Black}{0.535$\pm{}006$} & \textcolor{Black}{0.516$\pm{}005$} & \textcolor{White!50!BrickRed}{0.556$\pm{}006$} & \textcolor{Black}{0.699$\pm{}013$} \\
+Baselines\\\subcatarrow{}Multilingual-E5-Large Random Forest & \textcolor{NavyBlue}{0.443} & \textcolor{NavyBlue}{0.366$\pm{}005$} & \textcolor{Black}{0.519$\pm{}005$} & \textcolor{NavyBlue}{0.356$\pm{}006$} & \textcolor{NavyBlue}{0.526$\pm{}015$} \\
+Baselines\\\subcatarrow{}EuroBERT-210m no context & \textcolor{NavyBlue}{0.464} & \textcolor{Black}{0.493$\pm{}005$} & \textcolor{White!50!NavyBlue}{0.434$\pm{}005$} & \textcolor{Black}{0.501$\pm{}006$} & \textcolor{Black}{0.635$\pm{}014$} \\
+\hline
+\end{tabularx}

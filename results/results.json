@@ -1,5 +1,5 @@
 {
-    "results_agreement_no_languages/results_agreement_no_languages/devset.rubric/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/devset.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -31,7 +31,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/devset.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/devset.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.809 2",
@@ -3353,7 +3353,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/devset.simple/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/devset.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -3385,7 +3385,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/devset.simple/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/devset.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.517 1",
@@ -4423,7 +4423,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/full_testset.rubric/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/full_testset.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -4527,7 +4527,7 @@
             "original_name": "---------SingleContext"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/full_testset.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/full_testset.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.678 1",
@@ -16469,7 +16469,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/full_testset.simple/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/full_testset.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -16567,7 +16567,7 @@
             "original_name": "---------SingleContext"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/full_testset.simple/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/full_testset.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.309 2",
@@ -19093,7 +19093,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/pisa_testset.rubric/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/pisa_testset.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -19152,7 +19152,7 @@
             "original_name": "---------SingleContext"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/pisa_testset.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/pisa_testset.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.697 1",
@@ -26500,7 +26500,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/pisa_testset.simple/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/pisa_testset.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -26553,7 +26553,7 @@
             "original_name": "---------SingleContext"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/pisa_testset.simple/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/pisa_testset.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.290 2",
@@ -27915,7 +27915,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset.rubric/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/testset.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -27962,7 +27962,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/testset.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.656 1",
@@ -32884,7 +32884,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset.simple/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/testset.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -32931,7 +32931,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset.simple/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/testset.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.311 3",
@@ -34475,7 +34475,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset_manual.rubric/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/testset_manual.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -34510,7 +34510,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset_manual.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/testset_manual.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.666 1",
@@ -38104,7 +38104,7 @@
             }
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset_manual.simple/results.json.all_langs_additional_info.json": {
+    "results_agreement_no_languages/testset_manual.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -38151,7 +38151,7 @@
             "original_name": "----NoAdvers-----"
         }
     },
-    "results_agreement_no_languages/results_agreement_no_languages/testset_manual.simple/results.json.all_langs_evaluation_results.json": {
+    "results_agreement_no_languages/testset_manual.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "baselines.gpt_oss_20b": {
                 "accuracy": "0.332 1",
@@ -39631,7 +39631,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.all_langs_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -39642,7 +39642,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.all_langs_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.697 1",
@@ -40574,7 +40574,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.cs_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.cs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -40585,7 +40585,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.cs_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.cs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.686 1",
@@ -41517,7 +41517,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.da_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.da_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -41528,7 +41528,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.da_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.da_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.687 1",
@@ -42460,7 +42460,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.de_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.de_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -42471,7 +42471,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.de_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.de_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.686 1",
@@ -43403,7 +43403,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.el_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.el_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -43414,7 +43414,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.el_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.el_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.724 1",
@@ -44346,7 +44346,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.en_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.en_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -44357,7 +44357,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.en_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.en_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.702 1",
@@ -45289,7 +45289,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.fi_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.fi_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -45300,7 +45300,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.fi_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.fi_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.650 1",
@@ -46232,7 +46232,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.ga_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.ga_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -46240,7 +46240,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.ga_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.ga_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.679 1",
@@ -46862,7 +46862,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.hu_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.hu_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -46873,7 +46873,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.hu_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.hu_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.703 1",
@@ -47805,7 +47805,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.pt_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.pt_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -47816,7 +47816,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.pt_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.pt_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.721 1",
@@ -48748,7 +48748,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.sr_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.sr_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -48759,7 +48759,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.sr_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.sr_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.720 1",
@@ -49691,7 +49691,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.sv_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.sv_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -49702,7 +49702,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.sv_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.sv_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.718 1",
@@ -50634,7 +50634,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.uk_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.uk_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -50642,7 +50642,7 @@
             "original_name": "-NotTranslated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.rubric/results.json.uk_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.rubric/results.json.uk_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.538 8",
@@ -51264,7 +51264,7 @@
             }
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.simple/results.json.all_langs_additional_info.json": {
+    "results_no_agreement_languages/pisa_testset.simple/results.json.all_langs_additional_info.json": {
         "All": {
             "original_name": "All"
         },
@@ -51275,7 +51275,7 @@
             "original_name": "-Translated"
         }
     },
-    "results_no_agreement_languages/results_no_agreement_languages/pisa_testset.simple/results.json.all_langs_evaluation_results.json": {
+    "results_no_agreement_languages/pisa_testset.simple/results.json.all_langs_evaluation_results.json": {
         "All": {
             "wse_research.PRIMARY_qwen35": {
                 "accuracy": "0.290 2",

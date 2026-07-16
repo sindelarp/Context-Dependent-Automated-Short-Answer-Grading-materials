@@ -133,7 +133,7 @@ def extract_value(val_raw):
     return val, sig_override
 
 
-def generate_latex_table(subsections, sortfunc=None, metric='balanced_accuracy', higher_is_better=True, alpha=0.05, keep_empty=True, complex_funcs=False, label=None, caption=None, do_full_table=False, repl_dict=None, data_dict = None):
+def generate_latex_table(subsections, sortfunc=None, metric='balanced_accuracy', higher_is_better=True, alpha=0.05, keep_empty=True, complex_funcs=False, label=None, caption=None, do_full_table=False, repl_dict=None, data_dict = None, **kwargs):
     """
     Generates a tabularx LaTeX table comparing models across dataset subsections.
     """
@@ -587,16 +587,19 @@ def make_tables_scoreboard(p="out", is_lg=False, **kwargs):
                 f.write(latex_code)
 
 
-def get_dotplot(inpath, outpath, sort_func, metric, filter1, filter2, repl_dict=None):
-    with open(inpath) as f:
-        results_all = json.load(f)
-    with open("property_map.json") as f:
+def get_dotplot(inpath, outpath, metric, filter1, filter2, sortfunc=None, repl_dict=None, data_dict=None, **kwargs):
+    if data_dict is not None:
+        results_all = data_dict[inpath]
+    else:
+        with open(inpath) as f:
+            results_all = json.load(f)
+    with open(kwargs["property_map_path"]) as f:
         prop_map = json.load(f)
     results_all = {prop_map[k] if k in prop_map else k: v for k, v in results_all.items()}
     comb_names_all = list(results_all.keys())
     model_names = sorted(
         list(set([k for k in results_all[comb_names_all[0]].keys() if metric in results_all[comb_names_all[0]][k]])),
-        key=lambda x: sort_func(x), reverse=True)
+        key=lambda x: sortfunc(x), reverse=True)
 
     model_names = [x for x in model_names if repl_dict is None or x not in repl_dict or repl_dict[x] is not None]
     model_names_cleaned = [(x if repl_dict is None else repl_dict.get(x.replace(".json", ""),x)).replace(".", "\n") for x in model_names]
@@ -633,7 +636,7 @@ if __name__ == "__main__":
     argparse.ArgumentParser(description="Generate tables and figures from evaluation results.")
     argument_parser = argparse.ArgumentParser()
     argument_parser.add_argument("--store-json", action="store_true", help="Store all results in a single JSON file.")
-    argument_parser.add_argument("--data-path", default="../results/results.json", help="The path to the results json file")
+    argument_parser.add_argument("--results-path", default="../results/results.json", help="The path to the results json file")
     argument_parser.add_argument("--property-map-path", default="../results/property_map.json", help="The path to the property map json file")
     argument_parser.add_argument("--overall-results-path", default="../results/overall_results.json", help="The path to the overall results json file")
     args = argument_parser.parse_args()
@@ -646,8 +649,8 @@ if __name__ == "__main__":
     p3 = "results_no_agreement_languages"
 
     if args.store_json:
-        data_dict1 = {os.path.join(p, k): v for k,v in aggregate_json_files(p).items()}
-        data_dict2 = {os.path.join(p3, k): v for k,v in aggregate_json_files(p3).items()}
+        data_dict1 = aggregate_json_files(p)
+        data_dict2 = aggregate_json_files(p3)
         final_dict = data_dict1 | data_dict2
         for k,v in final_dict.items():
             for k2, v2 in v.items():
@@ -656,13 +659,13 @@ if __name__ == "__main__":
                         continue
                     print(v3)
                     final_dict[k][k2][k3] = {k4: v4 for k4, v4 in v3.items() if "label_distribution" not in k4 and "confusion_matrix" not in k4 and "f1" not in k4 and "recall" not in k4 and "pred_distribution" not in k4 and "t_neg_" not in k4 and "prec" not in k4}
-        with open("data.json", "w", encoding="utf-8") as f:
+        with open(args.results_path, "w", encoding="utf-8") as f:
             json.dump(final_dict, f, ensure_ascii=False, indent=4)
 
     with open(args.overall_results_path) as f:
         final_order = list(json.load(f).keys())
-    if os.path.exists("data.json"):
-        with open("data.json") as f:
+    if os.path.exists(args.results_path):
+        with open(args.results_path) as f:
             data_dict = json.load(f)
     else:
         data_dict = None
@@ -698,17 +701,17 @@ if __name__ == "__main__":
         "baselines.gemma_4_E4B_it_validated": "Baselines/Gemma4-E4B validated",
                                     "dipf_tba.PRIMARY_tolegra_llm_conf_gt05_all": "DIPF TBA/Tolegra or LLM",
                                     }
-    def_kwargs = {"keep_empty": keep_empty, "sortfunc": sortfunc, "repl_dict": repl_dict, "data_dict": data_dict}
+    def_kwargs = {"keep_empty": keep_empty, "sortfunc": sortfunc, "repl_dict": repl_dict, "data_dict": data_dict, "property_map_path": args.property_map_path}
     for split in ["testset", "pisa_testset"]:
         for track in ["rubric", "simple"]:
             for lg_dotplot in [False]:
                 lg_dotplot_string = "_lower_granularity" if lg_dotplot else ""
                 get_dotplot(
-                    inpath=f"./{p}/{split}.{track}{lg_dotplot_string}/results.json.all_langs_evaluation_results.json",
-                    outpath=f"./figures/{split}.{track}{lg_dotplot_string}.qwk", sort_func=sortfunc,
+                    inpath=f"{p}/{split}.{track}{lg_dotplot_string}/results.json.all_langs_evaluation_results.json",
+                    outpath=f"./figures/{split}.{track}{lg_dotplot_string}.qwk",
                     metric="quadratic_cohen_kappa",
                     filter1=lambda x: (not x.startswith("-")) or x == "All",
-                    filter2=lambda x: not (not x.startswith("-")) or x == "All", repl_dict=repl_dict)
+                    filter2=lambda x: not (not x.startswith("-")) or x == "All", **def_kwargs)
 
     make_tables_scoreboard(p=p, is_lg=False, **def_kwargs)
     make_tables_per_lang(p=p, metric="quadratic_cohen_kappa", **def_kwargs)
