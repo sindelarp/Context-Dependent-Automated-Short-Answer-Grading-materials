@@ -1,0 +1,17 @@
+{
+  "wse_research.PRIMARY_qwen35": 0.6479999999999999,
+  "baselines.gemma_4_E4B_it": 0.5055000000000001,
+  "baselines.gemma_4_E4B_it_validated": 0.4875,
+  "baselines.ProductOfExperts": 0.4395,
+  "fianso.experiment_qwen8b_logreg.PRIMARY": 0.4335,
+  "baselines.MajorityVote": 0.4085,
+  "baselines.MoritzLaurer-mDeBERTa-v3-base-xnli-multilingual-nli-2mil7_combo_1000_ctxn_rubn_wd1_ls5_ga64_p0__std_better_devset": 0.368,
+  "baselines.EuroBERT-EuroBERT-610m_combo_1003_ctxy_ruby_wd1_ls5_ga64_p20_10_std_better_devset": 0.3375,
+  "baselines.EuroBERT-210m_separate_rubrics": 0.331,
+  "pythoneers.PRIMARY": 0.317,
+  "baselines.EuroBERT-EuroBERT-210m_combo_1004_ctxy_rubn_wd5_ls5_ga64_p20__std_better_devset": 0.303,
+  "baselines.gemma_4_E2B_it": 0.28600000000000003,
+  "baselines.multilingual-e5-large_random_forest": 0.243,
+  "baselines.EuroBERT-210m_no_context_separate_rubrics": 0.238,
+  "baselines.gemma_4_E4B_validation_based": 0.031
+}
